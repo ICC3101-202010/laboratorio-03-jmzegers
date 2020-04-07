@@ -3,9 +3,9 @@ namespace lab03jmzegers
 {
     public class Personal : Persona
     {
-        protected string puesto;
-        protected int sueldo;
-        protected int horario;
+        public string puesto;
+        public int sueldo;
+        public int horario;
 
         public Personal(int rut, string name, string last_name, DateTime birth_date, string nationality,
             string puesto,

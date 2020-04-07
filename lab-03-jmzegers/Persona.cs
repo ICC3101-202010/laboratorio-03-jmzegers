@@ -5,11 +5,11 @@ namespace lab03jmzegers
 {
     public class Persona
     {
-        protected int rut;
-        protected string name;
-        protected string last_name;
-        protected DateTime birth_date;
-        protected string nationality;
+        public int rut;
+        public string name;
+        public string last_name;
+        public DateTime birth_date;
+        public string nationality;
 
         public Persona(int rut, string name, string last_name, DateTime birth_date, string nationality)
         {
