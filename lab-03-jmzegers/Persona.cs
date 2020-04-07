@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace lab03jmzegers
 {
@@ -14,7 +15,7 @@ namespace lab03jmzegers
         {
             this.rut = rut;
             this.name = name;
-            this.last_name =  last_name;
+            this.last_name = last_name;
             this.birth_date = birth_date;
             this.nationality = nationality;
         }
